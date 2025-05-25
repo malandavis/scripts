@@ -6,7 +6,7 @@
 # Pass any argument and it will git fetch and ask for confirmation before git pull on repos with a branch checked out
 
 # Replace with absolute directory to folder tracked by git
-rn="/home/mdavis/folder/"
+rn="/home/user/folder/"
 
 # Repositories and submodules (relative paths from $rn)
 dirs=("submodule1" "submodule1/other_sub")

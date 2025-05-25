@@ -5,22 +5,22 @@ alias gsu='git submodule update --init --recursive'
 alias gp='git pull'
 alias gool='git log --graph --pretty="%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset" --stat --date=short'
 alias tm='tmux'
-alias tm_layout='tmuxp load /home/mdavis/path/to/file.yml -d'
+alias tm_layout='tmuxp load /home/user/path/to/file.yml -d'
 
 
 follow () {
-        /home/mdavis/scripts/follow.sh $@
+        /home/user/scripts/follow.sh $@
 }
 
 search () {
-        /home/mdavis/scripts/search.sh $@
+        /home/user/scripts/search.sh $@
 }
 
 alias dp='docker ps'
 alias dcu='docker compose up -d'
-alias c='cd /mnt/c/Users/mdavis/Downloads'
+alias c='cd /mnt/c/Users/user/Downloads'
 alias cde='conda deactivate'
-alias valias='vim /home/mdavis/scripts/aliases.sh'
+alias valias='vim /home/user/scripts/aliases.sh'
 alias src='exec zsh'
 alias dockerclean='docker image rm $(docker images | grep "<none>" | awk '{print $3}' | tr '\n' ' ' | awk -F'%' '{print $1}')'
 

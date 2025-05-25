@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Get the directory to organize; default to the current directory if not provided
-directory="/home/mdavis/cp_temp/"
+directory="/home/user/cp_temp/"
 
 # Check if the directory exists
 if [ ! -d "$directory" ]; then
